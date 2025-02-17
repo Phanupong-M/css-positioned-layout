@@ -1,1 +1,102 @@
-/* Start coding here */
+*{
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    background-color: gray;
+    height: 50px;
+}
+
+nav h1{
+    color: white;
+    font-size: 30px;
+    text-align:start;
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+.box1 {
+   background-color: rgb(135, 211, 64);
+   border-radius: 50px;
+   width: 200px;
+   height: 40px;
+   text-align:start; 
+   padding: 10px 0 0 20px;
+   margin-top: 30px;
+   position: relative;
+}
+
+.boxtail{
+    background-color:  rgb(135, 211, 64);
+    clip-path: polygon(67% 31%, 86% 0, 90% 29%, 82% 50%, 71% 65%, 54% 72%, 37% 64%, 37% 54%, 49% 55%, 55% 45%);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: -15px;
+    left: 140px;
+}
+
+.box2 {
+    background-color: rgb(226, 228, 224);
+    border-radius: 50px;
+    width: 200px;
+    height: 40px;
+    text-align:start; 
+    padding: 10px 0 0 20px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.x{
+    background-color:rgb(155, 152, 152) ;
+    border-radius: 50px;
+    width: 20px;
+    text-align: center;
+    color: thistle;
+    font-style: italic;
+    position: absolute;
+    left: 170px;
+    bottom: 5px;
+}
+
+.box3 {
+    background-color:rgb(135, 211, 64);
+    border-radius: 50px;
+    width: 200px;
+    height: 40px;
+    text-align:start; 
+    padding: 10px 0 0 20px;
+    margin-top: 10px;
+}
+
+.box4 {
+    background-color: rgb(140, 141, 139);
+    border-radius: 50px;
+    width: 200px;
+    height: 40px;
+    text-align:start; 
+    padding: 10px 0 0 20px;
+    margin-top: 10px;
+}
+
+.box5 {
+    background-color:rgb(140, 141, 139);
+    border-radius: 50px;
+    width: 200px;
+    height: 40px;
+    text-align:start; 
+    padding: 10px 0 0 20px;
+    margin-top: 10px;
+}
+
+
+#sender {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
